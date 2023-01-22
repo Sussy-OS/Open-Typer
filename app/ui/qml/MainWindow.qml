@@ -425,6 +425,7 @@ ApplicationWindow {
 					icon.name: "repeat"
 					toolTipText: qsTr("Repeat exercise")
 					onClicked: repeatExerciseClicked();
+					accessibleDescription: toolTipText + " " + qsTr("Start typing")
 				}
 				CustomToolButton {
 					id: closeLoadedExButton
