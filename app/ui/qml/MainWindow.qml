@@ -1347,6 +1347,7 @@ ApplicationWindow {
 		if(!Settings.initFinished())
 			initialSetup.open();
 		reload();
+		paper.forceActiveFocus();
 	}
 
 	onClosing: {
